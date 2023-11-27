@@ -1,0 +1,32 @@
+InputStream
+
+       
+        FileInputStream  -파일과 연결해서 파일의 내용을 1byte씩 읽어오는 스트림
+        bufferredInputStream         -다른 스트림과 연결해서 읽기 성능을 향상시키는 스트림
+        DataInputStream
+        ObjectInputStream
+
+OutputStream
+      
+        FileOutputStream        -파일과 연결해서 1byte씩 파일에 기록하는 스트림
+        BufferredStream -다른 스트림과 연결해서 쓰기 성능으 ㄹ향상시키는 스트림
+        Data OutputStream
+       Object OutputStream
+        PrintStream - 쓰기 전용 스트림, 표준 출력/표준 에러출력 스트림이다.
+
+
+
+Reader  
+        -
+        FileReader -파일과 연결해서 파일의 내용을 1글자씩 읽어오는 스트림
+        BufferredReader -다른 스트림과 연결해서 읽기 성능을 향상시키는 스트림
+                        텍스트를 한 줄씩 읽어오는 스트림
+        InputStreamReader 
+
+
+Writer
+         -
+        FileWriter -파일과 연결해서 1글자씩 파일에 기록하는 스트림
+        BufferredWriter -다른 스트림과 연결해서 쓰기 성능을 향상시키는 스트림
+        OutputStreamReader
+        PrintWriter - 쓰기 전용 스트림, 텍스트 기록에 최적화 되어 있는 스트림
